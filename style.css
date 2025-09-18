@@ -1,0 +1,19 @@
+/* Box styling */
+#box {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  margin-top: 20px;
+  transition: transform 0.5s ease, background 0.5s ease;
+}
+
+/* Animation using keyframes */
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate {
+  animation: spin 1s linear infinite;
+  background: tomato;
+}
